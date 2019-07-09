@@ -1,0 +1,8 @@
+Change Pin Designator/Name:  Old Designator=STM1-21 Old Name=PB10 New Designator =PB4/JNTRST New Name=40
+Change Pin Designator/Name:  Old Designator=STM1-22 Old Name=PB11 New Designator =PB5 New Name=41
+Change Pin Designator/Name:  Old Designator=STM1-25 Old Name=PB12 New Designator =PB6 New Name=42
+Change Pin Designator/Name:  Old Designator=STM1-26 Old Name=PB13 New Designator =PB7 New Name=43
+Change Pin Designator/Name:  Old Designator=STM1-40 Old Name=PB4/JNTRST New Designator =PB12 New Name=25
+Change Pin Designator/Name:  Old Designator=STM1-41 Old Name=PB5 New Designator =PB13 New Name=26
+Change Pin Designator/Name:  Old Designator=STM1-42 Old Name=PB6 New Designator =PB10 New Name=21
+Change Pin Designator/Name:  Old Designator=STM1-43 Old Name=PB7 New Designator =PB11 New Name=22
