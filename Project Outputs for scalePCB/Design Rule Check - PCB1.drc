@@ -1,0 +1,82 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\cheny\Desktop\Scales\PCB1.PcbDoc
+Date     : 2019/7/10
+Time     : 15:28:31
+
+WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
+   Polygon named: Bottom Layer-GND
+
+WARNING: Zero hole size multi-layer pad(s) detected
+   Pad asm1-1(2385mil,4565mil) on Multi-Layer on Net GND
+   Pad asm1-2(2385mil,4665mil) on Multi-Layer on Net +3V3
+   Pad asm1-3(2385mil,4765mil) on Multi-Layer on Net +5V
+
+WARNING: Multilayer Pads with 0 size Hole found
+   Pad asm1-1(2385mil,4565mil) on Multi-Layer
+   Pad asm1-2(2385mil,4665mil) on Multi-Layer
+   Pad asm1-3(2385mil,4765mil) on Multi-Layer
+
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
+   Violation between Clearance Constraint: (0.606mil < 5mil) Between Pad HX1-11(2047.008mil,1990mil) on Top Layer And Track (1999mil,1949mil)(1999mil,2081mil) on Top Layer 
+   Violation between Clearance Constraint: (0.606mil < 5mil) Between Pad HX1-12(2047.008mil,2040mil) on Top Layer And Track (1999mil,1949mil)(1999mil,2081mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 5mil) Between Track (1571mil,2830mil)(1571mil,3159mil) on Top Layer And Via (1606mil,3130mil) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (2mil < 5mil) Between Track (1999mil,1949mil)(1999mil,2081mil) on Top Layer And Via (1962mil,2016mil) from Top Layer to Bottom Layer 
+Rule Violations :4
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Track (1571mil,2830mil)(1571mil,3159mil) on Top Layer And Via (1606mil,3130mil) from Top Layer to Bottom Layer Location : [X = 1580.983mil][Y = 3130mil]
+Rule Violations :1
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net NetC12_2 Between Track (1505mil,2903mil)(1510mil,2898mil) on Bottom Layer And Track (1505mil,2903mil)(1505mil,2944.686mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetHX2_2 Between Track (1572mil,2769mil)(1611mil,2730mil) on Bottom Layer And Track (1611mil,2730mil)(1667.992mil,2730mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net DOUT Between Track (1950mil,2710mil)(2116mil,2544mil) on Bottom Layer And Track (2080mil,2580mil)(2116mil,2544mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net PD_SCK1 Between Track (2120mil,1990mil)(2336.503mil,1990mil) on Bottom Layer And Track (2047.008mil,1990mil)(2120mil,1990mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NRST Between Track (3498mil,4117mil)(3498mil,4160mil) on Bottom Layer And Track (3498mil,4160mil)(3695mil,4160mil) on Top Layer 
+Rule Violations :5
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+   Violation between Modified Polygon: Polygon Not Repour After Edit  (Bottom Layer-GND) on Bottom Layer 
+Rule Violations :1
+
+Processing Rule : Width Constraint (Min=10mil) (Max=80mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+   Violation between Net Antennae: Track (1505mil,2903mil)(1505mil,2944.686mil) on Top Layer 
+   Violation between Net Antennae: Track (1510mil,2898mil)(1821mil,2898mil) on Bottom Layer 
+   Violation between Net Antennae: Track (1572mil,2769mil)(1611mil,2730mil) on Bottom Layer 
+   Violation between Net Antennae: Track (1611mil,2730mil)(1667.992mil,2730mil) on Top Layer 
+   Violation between Net Antennae: Track (1950mil,2710mil)(2116mil,2544mil) on Bottom Layer 
+   Violation between Net Antennae: Track (2047.008mil,1990mil)(2120mil,1990mil) on Top Layer 
+   Violation between Net Antennae: Track (2080mil,2580mil)(2116mil,2544mil) on Top Layer 
+   Violation between Net Antennae: Track (2120mil,1990mil)(2336.503mil,1990mil) on Bottom Layer 
+   Violation between Net Antennae: Track (3498mil,4117mil)(3498mil,4160mil) on Bottom Layer 
+   Violation between Net Antennae: Track (3498mil,4160mil)(3695mil,4160mil) on Top Layer 
+Rule Violations :10
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 21
+Waived Violations : 0
+Time Elapsed        : 00:00:00
